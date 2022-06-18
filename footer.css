@@ -1,0 +1,118 @@
+#footer{
+
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: #F4F7FB;
+}
+#footer #upper{
+
+    width: 77%;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(100px,auto);
+    gap:1px;
+}
+
+#footer #upper>div{
+
+    /* border: 1px solid blue; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-top: 40px;
+
+}
+
+#footer #upper>div>a{
+
+    /* border: 1px solid blue; */
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color:gray;
+    font-size: 17px;
+    
+    font-family: 'Anek Malayalam', sans-serif;
+    
+}
+#footer #upper>div:last-child{
+
+    width: 100%;
+    /* border: 1px solid red; */
+}
+#footer #upper>div:last-child>a{
+
+  display: inline;
+}
+
+#footer #upper .fa-brands{
+    
+    width: 23%;
+    color: #10847E;
+}
+
+#lower{
+
+    border: 1px solid transparent;
+    width: 100%;
+    height: auto;
+    margin:auto;
+    margin: 0px;
+    /* margin-top: -10px; */
+    padding: 0px;
+    background-color: #F4F7FB;
+    
+}
+#lower>div:first-child{
+
+    /* border: 1px solid blue; */
+    margin-left: 155px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color:rgb(85, 73, 73)
+}
+#store{
+
+    display: flex;  
+}
+#store #icons{
+
+    /* border: 1px solid green; */
+    width: 60%;
+    margin: 0px;
+    margin-left: 145px;
+    padding: 0px;
+}
+
+#store #copyrights{
+
+    /* border: 1px solid blue; */
+    padding: 0px;
+    margin:0px;
+}
+#store #icons>img{
+
+    /* border: 1px solid red; */
+    width: 60px;
+    height: auto;
+}
+
+#store #icons>img:first-child{
+
+    width: 70px;
+    height: auto;
+}
+#store #icons>img:nth-child(2){
+
+    width: 80px;
+    height: auto;
+}
+#store #icons>img:nth-child(11){
+
+    width: 80px;
+    height: auto;
+} 
